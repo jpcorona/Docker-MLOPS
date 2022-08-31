@@ -42,9 +42,13 @@ Arquitectura de proyecto:
 Para poder levantar este entorno necesitamos los siguientes componentes:
 
 El entorno de desarrollo de jupyter
+
 MLflow server: Gestión de modelos.
+
 Postgres: Base de datos de apoyo para mlflow server.
+
 FTP server: Servidor de archivos de apoyo para mlflow server. Nos basamos en la imagen de https://github.com/mauler/docker-simple-ftp-server
+
 Portainer: Contenedor con UI de gestión del entorno de docker.
-Jupyter:
-Para el entorno de jupyter nos basaremos en la imagen especificada en este repo: https://github.com/jupyter/docker-stacks, le agregamos mlflow así como el notebook con el modelo ejemplo.
+
+Jupyter: Para el entorno de jupyter nos basaremos en la imagen especificada en este repo: https://github.com/jupyter/docker-stacks, le agregamos mlflow así como el notebook con el modelo ejemplo.
