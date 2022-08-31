@@ -65,3 +65,10 @@ COPY ejemplo.ipynb ejemplo.ipynb
 RUN pip install -r requirements.txt
 
 EXPOSE 8888
+
+Archivo de requirements de python
+=
+mlflow==1.5.0
+seaborn==0.9.0
+scikit-learn==0.21.2
+pysftp==0.2.9
