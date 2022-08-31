@@ -19,3 +19,20 @@ Toda la documentación de mlflow se puede encontrar en la siguiente liga:
 https://mlflow.org/docs/latest/index.html
 
 Docker: Proyecto open source que habilita el despliegue de contenedores de Linux siendo una alternativa muy eficiente en muchos casos a la virtualización de máquinas completas.
+
+
+Docker compose: Es una herramienta para definir aplicaciones multi-contenedor mediante un archivo en formato yaml.
+
+https://docs.docker.com/compose/
+
+Ya que contamos con una base teórica de las componentes que se utilizarán en el proyecto, comencemos.
+
+Docker compose: Es una herramienta para definir aplicaciones multi-contenedor mediante un archivo en formato yaml.
+
+https://docs.docker.com/compose/
+
+Ya que contamos con una base teórica de las componentes que se utilizarán en el proyecto, comencemos.
+
+Arquitectura de proyecto:
+
+![image](https://user-images.githubusercontent.com/30583333/187587363-31f73e8e-ea70-483e-bbdc-fdf55a90e505.png)
