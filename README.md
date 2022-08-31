@@ -53,6 +53,8 @@ Portainer: Contenedor con UI de gestión del entorno de docker.
 
 Jupyter: Para el entorno de jupyter nos basaremos en la imagen especificada en este repo: https://github.com/jupyter/docker-stacks, le agregamos mlflow así como el notebook con el modelo ejemplo.
 
+Dockefile jupyter modificado
+=
 FROM jupyter/datascience-notebook:9b06df75e445
 
 WORKDIR /home/jovyan/
