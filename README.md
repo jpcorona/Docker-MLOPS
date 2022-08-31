@@ -52,3 +52,14 @@ FTP server: Servidor de archivos de apoyo para mlflow server. Nos basamos en la 
 Portainer: Contenedor con UI de gestión del entorno de docker.
 
 Jupyter: Para el entorno de jupyter nos basaremos en la imagen especificada en este repo: https://github.com/jupyter/docker-stacks, le agregamos mlflow así como el notebook con el modelo ejemplo.
+
+FROM jupyter/datascience-notebook:9b06df75e445
+
+WORKDIR /home/jovyan/
+
+COPY requirements.txt requirements.txt
+COPY ejemplo.ipynb ejemplo.ipynb
+
+RUN pip install -r requirements.txt
+
+EXPOSE 8888
