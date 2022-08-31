@@ -36,3 +36,15 @@ Ya que contamos con una base teórica de las componentes que se utilizarán en e
 Arquitectura de proyecto:
 
 ![image](https://user-images.githubusercontent.com/30583333/187587363-31f73e8e-ea70-483e-bbdc-fdf55a90e505.png)
+
+
+#Paso 1: Levantar un entorno inicial mediante docker compose.
+Para poder levantar este entorno necesitamos los siguientes componentes:
+
+El entorno de desarrollo de jupyter
+MLflow server: Gestión de modelos.
+Postgres: Base de datos de apoyo para mlflow server.
+FTP server: Servidor de archivos de apoyo para mlflow server. Nos basamos en la imagen de https://github.com/mauler/docker-simple-ftp-server
+Portainer: Contenedor con UI de gestión del entorno de docker.
+Jupyter:
+Para el entorno de jupyter nos basaremos en la imagen especificada en este repo: https://github.com/jupyter/docker-stacks, le agregamos mlflow así como el notebook con el modelo ejemplo.
