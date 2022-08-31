@@ -13,3 +13,9 @@ A su vez mlflow se apoya de otras componentes adicionales para poder funcionar l
 La backend-store puede ser de los siguientes tipos: archivos planos, postgres, mysql, etc.
 
 La default-artifact puede ser de los siguientes tipos: archivos locales, azure blob storage, aws s3, ftp, etc.
+
+Toda la documentación de mlflow se puede encontrar en la siguiente liga:
+
+https://mlflow.org/docs/latest/index.html
+
+Docker: Proyecto open source que habilita el despliegue de contenedores de Linux siendo una alternativa muy eficiente en muchos casos a la virtualización de máquinas completas.
