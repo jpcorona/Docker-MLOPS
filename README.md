@@ -89,3 +89,19 @@ EXPOSE 5000
 
 ENTRYPOINT sleep 25 && mlflow server --backend-store-uri postgresql://mlflow_user:mlflow@postgres/mlflow_db --default-artifact-root ftp://test:test@ftpd/home/test/ --host 0.0.0.0
 
+mlflow==1.5.0
+psycopg2-binary==2.8.4
+requirements.txt para mlflow server
+
+
+FROM postgres:latest
+
+COPY init.sql /docker-entrypoint-initdb.d/
+
+Dockerfile para postgres
+=
+CREATE DATABASE mlflow_db;
+CREATE USER mlflow_user WITH PASSWORD 'mlflow';
+GRANT ALL PRIVILEGES ON DATABASE mlflow_db TO mlflow_user;
+init.sql
+=
