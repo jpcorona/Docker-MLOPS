@@ -240,7 +240,6 @@ Conclusiones Finales
 =
 En este post se mostró como gestionar un modelo de machine learning de punta a punta, sin embargo, también se mostró que para llevar esto a una escala productiva es necesario incorporar más elementos que brinden alta disponibilidad, seguridad y respaldo.
 
-En el próximo post se mostrará como implementar la gestión de punta a punta de modelos sobre una arquitectura basada en nube.
 
 Recursos adicionales
 =
