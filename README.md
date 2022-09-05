@@ -57,7 +57,7 @@ Dockefile jupyter modificado
 =
 FROM jupyter/datascience-notebook:9b06df75e445
 
-WORKDIR /home/jovyan/
+WORKDIR /home/jp/
 
 COPY requirements.txt requirements.txt
 COPY ejemplo.ipynb ejemplo.ipynb
